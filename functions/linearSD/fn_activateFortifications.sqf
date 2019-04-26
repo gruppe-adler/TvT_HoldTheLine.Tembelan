@@ -1,11 +1,15 @@
 #include "component.hpp"
 
+GVAR(sectorTriggers) deleteAt 0;
+
 {
     _hide = !(_forEachIndex in [GVAR(attackerSectorID),GVAR(activeSectorID)]);
-
+    private _sectorTrigger = _x;
     {
         {
-            _x hideObjectGlobal _hide;
+            private _fortification = _x;
+
+            _fortification hideObjectGlobal _hide;
         } forEach (_x getVariable [QGVAR(fortifications),[]]);
-    } forEach _x;
+    } forEach _sectorTrigger;
 } forEach GVAR(sectorTriggers);

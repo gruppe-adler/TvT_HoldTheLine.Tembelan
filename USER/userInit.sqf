@@ -1,6 +1,7 @@
 /*  Wird zum Missionsstart auf Server und Clients ausgeführt.
 *   Funktioniert wie die init.sqf.
 */
+
 [{
     _firstActiveSectorID = selectRandom [3,4];
     _roundLength = 1800;
