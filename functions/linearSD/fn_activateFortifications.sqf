@@ -1,7 +1,5 @@
 #include "component.hpp"
 
-GVAR(sectorTriggers) deleteAt 0;
-
 {
     _hide = !(_forEachIndex in [GVAR(attackerSectorID),GVAR(activeSectorID)]);
     private _sectorTrigger = _x;

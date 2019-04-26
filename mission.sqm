@@ -31519,7 +31519,7 @@ class Mission
 			{
 				position[]={5004.21,17.09,1014.196};
 			};
-			init="call{[this,""Airport"",WEST,6] call grad_linearsd_fnc_createSector;}";
+			init="call{[this,""Airport"",WEST,5] call grad_linearsd_fnc_createSector;}";
 			id=1232;
 			type="Logic";
 		};
@@ -31541,7 +31541,7 @@ class Mission
 				position[]={5463.5068,25.760117,1817.498};
 				angles[]={0.10362019,0,6.1303816};
 			};
-			init="call{[this,""Shot down Helicopter"",WEST,5] call grad_linearsd_fnc_createSector;}";
+			init="call{[this,""Shot down Helicopter"",WEST,4] call grad_linearsd_fnc_createSector;}";
 			id=1234;
 			type="Logic";
 		};
@@ -31562,7 +31562,7 @@ class Mission
 			{
 				position[]={4792.9199,23.92,1874.125};
 			};
-			init="call{[this,""Destroyed Base"",WEST,5] call grad_linearsd_fnc_createSector;}";
+			init="call{[this,""Destroyed Base"",WEST,4] call grad_linearsd_fnc_createSector;}";
 			id=1236;
 			type="Logic";
 		};
@@ -31584,7 +31584,7 @@ class Mission
 				position[]={4733.7881,4.1166329,3213.969};
 				angles[]={0.093724176,0,0.12337732};
 			};
-			init="call{[this,""Convoy"",WEST,4] call grad_linearsd_fnc_createSector;}";
+			init="call{[this,""Convoy"",WEST,3] call grad_linearsd_fnc_createSector;}";
 			id=1238;
 			type="Logic";
 		};
@@ -31606,7 +31606,7 @@ class Mission
 				position[]={5377.2988,25.824608,2555.5869};
 				angles[]={6.2551899,0,0.033981562};
 			};
-			init="call{[this,""Anti-Air position"",WEST,4] call grad_linearsd_fnc_createSector;}";
+			init="call{[this,""Anti-Air position"",WEST,3] call grad_linearsd_fnc_createSector;}";
 			id=1240;
 			type="Logic";
 		};
@@ -31628,7 +31628,7 @@ class Mission
 				position[]={6131.29,17.412563,4106.2002};
 				angles[]={0.049958061,0,0.12533973};
 			};
-			init="call{[this,""Patrol support"",EAST,3] call grad_linearsd_fnc_createSector;}";
+			init="call{[this,""Patrol support"",EAST,2] call grad_linearsd_fnc_createSector;}";
 			id=1242;
 			type="Logic";
 		};
@@ -31650,7 +31650,7 @@ class Mission
 				position[]={6516.4209,82.539894,3594.583};
 				angles[]={6.2811785,0,0.091734506};
 			};
-			init="call{[this,""Radio station"",EAST,3] call grad_linearsd_fnc_createSector;}";
+			init="call{[this,""Radio station"",EAST,2] call grad_linearsd_fnc_createSector;}";
 			id=1244;
 			type="Logic";
 		};
@@ -31674,7 +31674,7 @@ class Mission
 				position[]={7112.4658,24.334743,3983.0684};
 				angles[]={6.2791886,0,0.07386519};
 			};
-			init="call{[this,""Anti-Air position"",EAST,2] call grad_linearsd_fnc_createSector;}";
+			init="call{[this,""Anti-Air position"",EAST,1] call grad_linearsd_fnc_createSector;}";
 			id=1246;
 			type="Logic";
 		};
@@ -31695,7 +31695,7 @@ class Mission
 			{
 				position[]={6959.2681,0,3409.01};
 			};
-			init="call{[this,""Broken down ship"",EAST,2] call grad_linearsd_fnc_createSector;}";
+			init="call{[this,""Broken down ship"",EAST,1] call grad_linearsd_fnc_createSector;}";
 			id=1248;
 			type="Logic";
 			atlOffset=14.932496;
@@ -31723,7 +31723,7 @@ class Mission
 				position[]={8061.9424,14.126246,4881.79};
 				angles[]={6.1696749,0,0.031988446};
 			};
-			init="call{[this,""Airport"",EAST,1] call grad_linearsd_fnc_createSector;}";
+			init="call{[this,""Airport"",EAST,0] call grad_linearsd_fnc_createSector;}";
 			id=1250;
 			type="Logic";
 		};
