@@ -2,9 +2,9 @@
 *   Funktioniert wie die init.sqf.
 */
 [{
-    _firstActiveSectorID = selectRandom [2,3];
+    _firstActiveSectorID = selectRandom [3,4];
     _roundLength = 1800;
-    _opforDirection = 1;
+    _opforDirection = -1;
 
     _dateAndTimeArray = [
         [28,3,10],
