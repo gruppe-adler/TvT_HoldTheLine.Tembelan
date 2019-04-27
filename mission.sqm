@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=1272;
+		nextID=1322;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=117;
+		nextID=123;
 	};
 	class Camera
 	{
-		pos[]={7810.3501,66.262878,4968.5562};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={6332.7695,58.187332,3668.3213};
+		dir[]={0.98689914,0.030802578,-0.15889503};
+		up[]={-0.030339414,0.9995349,0.0048848935};
+		aside[]={-0.15896907,1.3567624e-006,-0.98736566};
 	};
 };
 binarizationWanted=0;
@@ -90,7 +90,8 @@ addons[]=
 	"A3_Structures_F_Argo_Military_Turrets",
 	"A3_Structures_F_Households_WIP",
 	"A3_Structures_F_Ind_ConcreteMixingPlant",
-	"A3_Structures_F_Exp_Commercial_Market"
+	"A3_Structures_F_Exp_Commercial_Market",
+	"A3_Props_F_Exp_Military_OldPlaneWrecks"
 };
 class AddonsMetaData
 {
@@ -3369,7 +3370,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=693;
+		items=741;
 		class Item0
 		{
 			dataType="Layer";
@@ -12903,12 +12904,12 @@ class Mission
 		class Item4
 		{
 			dataType="Marker";
-			position[]={5433.1152,35.505238,2618.5251};
+			position[]={5433.1152,35.505001,2618.5249};
 			name="AA";
-			text="AA";
+			text="Anti-Air";
 			type="mil_objective";
 			id=428;
-			atlOffset=0.0002746582;
+			atlOffset=3.8146973e-005;
 		};
 		class Item5
 		{
@@ -12921,7 +12922,7 @@ class Mission
 			fillName="DiagGrid";
 			a=1422.239;
 			b=38.823002;
-			angle=226.53407;
+			angle=226.53406;
 			id=429;
 			atlOffset=-0.62656593;
 		};
@@ -12930,7 +12931,7 @@ class Mission
 			dataType="Marker";
 			position[]={4839.6191,5.9400001,3309.5569};
 			name="marker_9";
-			text="CONVOY";
+			text="Convoy";
 			type="mil_objective";
 			id=430;
 			atlOffset=0.00037384033;
@@ -17191,8 +17192,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5073.7461,13.958621,3154.604};
-				angles[]={6.2212648,0,6.1382103};
+				position[]={4916.0371,9.2729359,3293.0503};
+				angles[]={0.10955941,0,0.065903664};
 			};
 			side="Empty";
 			flags=4;
@@ -17201,79 +17202,78 @@ class Mission
 			};
 			id=690;
 			type="Crater";
-			atlOffset=8.2969666e-005;
 		};
 		class Item267
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5074.7446,14.717825,3159.1602};
-				angles[]={6.2192731,4.6859732,6.1637559};
+				position[]={4915.7983,8.7172308,3297.5688};
+				angles[]={0.15475266,4.6859732,0.10362761};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=691;
 			type="CraterLong_small";
-			atlOffset=0.57596111;
 		};
 		class Item268
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5070.4351,15.495447,3156.4934};
-				angles[]={6.245204,0.45479375,6.1382103};
+				position[]={4911.4888,8.462903,3294.9021};
+				angles[]={0.10955941,0.45479375,0.16450022};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=692;
 			type="CraterLong_small";
-			atlOffset=0.92726803;
 		};
 		class Item269
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5071.3657,14.929659,3151.7178};
-				angles[]={6.2332263,5.6031814,6.1264811};
+				position[]={4912.4194,9.3144312,3290.1265};
+				angles[]={0.17809334,5.6031814,0.095706634};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=693;
 			type="CraterLong_small";
-			atlOffset=0.73458004;
 		};
 		class Item270
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5075.4492,13.703388,3149.7432};
-				angles[]={6.2212639,4.6739697,6.1284328};
+				position[]={4916.5029,9.6967859,3288.1519};
+				angles[]={0.05394781,4.6739697,0.0080009829};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=694;
 			type="CraterLong_small";
-			atlOffset=0.25441647;
 		};
 		class Item271
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5079.145,13.003235,3151.887};
-				angles[]={6.2232571,0.25392398,6.1264811};
+				position[]={4920.1987,9.8948622,3290.2957};
+				angles[]={0.071875811,0.25392398,0.0060001095};
 			};
 			side="Empty";
 			flags=4;
@@ -17288,8 +17288,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5079.334,13.297663,3157.4229};
-				angles[]={6.229239,5.4889154,6.1167397};
+				position[]={4920.3877,9.4927406,3295.8315};
+				angles[]={0.1135099,5.4889154,0.083802827};
 			};
 			side="Empty";
 			flags=4;
@@ -20398,7 +20398,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={4877.5469,5.7131724,3312.3181};
+				position[]={4877.5474,5.7131963,3312.3184};
 				angles[]={6.2731848,0,0.039979152};
 			};
 			areaSize[]={1,-1,1};
@@ -21047,7 +21047,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={4819.5615,5.9899998,3310.8599};
+				position[]={4819.563,5.9899998,3310.8601};
 			};
 			areaSize[]={1,-1,1};
 			id=763;
@@ -21629,7 +21629,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={4816.0923,5.9899998,3308.8479};
+				position[]={4816.0928,5.9899998,3308.8481};
 			};
 			areaSize[]={1,-1,1};
 			id=766;
@@ -24151,7 +24151,7 @@ class Mission
 			dataType="Marker";
 			position[]={6027.8882,5.7340002,4176.96};
 			name="marker_4";
-			text="PetrolSupport";
+			text="Petrol Support";
 			type="mil_objective";
 			id=916;
 			atlOffset=0.00034236908;
@@ -30681,7 +30681,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={4971.5957,37.006508,1956.7837};
+				position[]={4971.5938,37.006042,1956.7837};
 			};
 			areaSize[]={1,-1,1};
 			id=1198;
@@ -30874,7 +30874,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={4949.9707,31.491016,1947.3689};
+				position[]={4949.9688,31.49065,1947.3689};
 			};
 			areaSize[]={1,-1,1};
 			id=1199;
@@ -32009,6 +32009,768 @@ class Mission
 			id=1271;
 			type="LocationArea_F";
 			atlOffset=52.147999;
+		};
+		class Item693
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5547.3193,18.021889,2701.7207};
+				angles[]={0.063913256,0.16857992,6.2093201};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1274;
+			type="Land_Wreck_AFV_Wheeled_01_F";
+		};
+		class Item694
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5614.0786,10.405075,2720.3413};
+				angles[]={6.2531939,5.0436263,6.1795578};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1275;
+			type="Land_Wreck_BMP2_F";
+			atlOffset=0.0049676895;
+		};
+		class Item695
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5566.4004,11.165553,2847.3093};
+				angles[]={6.2332273,0,6.2352223};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1276;
+			type="Land_Wreck_BRDM2_F";
+		};
+		class Item696
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5502.2773,13.464921,2778.2759};
+				angles[]={0.04796192,0,0.0039967569};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1277;
+			type="Land_HistoricalPlaneWreck_01_F";
+		};
+		class Item697
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5721.3071,29.096945,2874.2373};
+				angles[]={6.1598148,0,0.19354631};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1278;
+			type="Land_UWreck_MV22_F";
+			atlOffset=0.11207581;
+		};
+		class Item698
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5606.9238,13.707264,2863.8201};
+				angles[]={6.1973968,4.1027527,0.033987202};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1279;
+			type="Land_Wreck_Slammer_F";
+			atlOffset=0.0063343048;
+		};
+		class Item699
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5610.8008,14.319603,2885.2517};
+				angles[]={0.015994642,0,0.035984326};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1280;
+			type="Land_Wreck_MBT_04_F";
+			atlOffset=0.0009059906;
+		};
+		class Item700
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5529.708,15.007995,2738.2036};
+				angles[]={0.083802827,1.3227122,0.012000273};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1281;
+			type="Land_Wreck_Slammer_hull_F";
+			atlOffset=0.0025920868;
+		};
+		class Item701
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6373.6006,63.759003,3611.1226};
+				angles[]={6.2292376,0,0.26743606};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1282;
+			type="Land_Wreck_T72_hull_F";
+			atlOffset=0.012737274;
+		};
+		class Item702
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6367.9644,62.674603,3611.0271};
+				angles[]={6.2611909,0,0.21464182};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1283;
+			type="Land_Wreck_T72_turret_F";
+			atlOffset=0.060276031;
+		};
+		class Item703
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6385.5195,66.246765,3594.5029};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1284;
+			type="Bush_Ficus_Bush_2";
+			atlOffset=7.6293945e-006;
+		};
+		class Item704
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6386.3003,66.357506,3596.6587};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1285;
+			type="Bush_Ficus_Bush_3";
+		};
+		class Item705
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6389.4385,66.500053,3594.6812};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1286;
+			type="Bush_Oleander2";
+			atlOffset=7.6293945e-006;
+		};
+		class Item706
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6379.918,65.156525,3600.8511};
+				angles[]={0,0.77255917,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1287;
+			type="Bush_Ficus_Bush_3";
+			atlOffset=3.8146973e-006;
+		};
+		class Item707
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6400.1626,69.50174,3610.8354};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1288;
+			type="Bush_Ficus_Bush_1";
+		};
+		class Item708
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6398.4209,69.243156,3614.124};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1289;
+			type="Bush_Ficus_Bush_2";
+		};
+		class Item709
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6395.4575,68.725952,3613.3359};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1290;
+			type="Bush_Ficus_Bush_2";
+		};
+		class Item710
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6395.1265,68.149445,3609.958};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1291;
+			type="Bush_Oleander1";
+			atlOffset=-7.6293945e-006;
+		};
+		class Item711
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6389.7075,67.76992,3615.9023};
+				angles[]={0,0.77255917,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1292;
+			type="Bush_Ficus_Bush_1";
+		};
+		class Item712
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6390.7554,67.980515,3619.4731};
+				angles[]={0,0.77255917,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1293;
+			type="Bush_Ficus_Bush_2";
+			atlOffset=7.6293945e-006;
+		};
+		class Item713
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6388.083,67.524254,3620.9771};
+				angles[]={0,0.77255917,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1294;
+			type="Bush_Ficus_Bush_2";
+		};
+		class Item714
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6393.686,67.943336,3616.8652};
+				angles[]={0,0.77255917,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1295;
+			type="Bush_Oleander2";
+			atlOffset=7.6293945e-006;
+		};
+		class Item715
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6385.4883,66.582146,3618.7891};
+				angles[]={0,0.77255917,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1296;
+			type="Bush_Oleander1";
+		};
+		class Item716
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6389.291,67.34494,3604.5806};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1297;
+			type="Bush_Ficus_Bush_1";
+		};
+		class Item717
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6387.5493,67.135597,3607.8691};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1298;
+			type="Bush_Ficus_Bush_2";
+		};
+		class Item718
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6384.5859,66.161781,3607.0811};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1299;
+			type="Bush_Ficus_Bush_2";
+			atlOffset=-0.34583282;
+		};
+		class Item719
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6388.3301,67.246483,3610.0249};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1300;
+			type="Bush_Ficus_Bush_3";
+		};
+		class Item720
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6391.4683,67.369537,3608.0474};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1301;
+			type="Bush_Oleander2";
+		};
+		class Item721
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6384.2549,65.812157,3603.7031};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1302;
+			type="Bush_Oleander1";
+			atlOffset=7.6293945e-006;
+		};
+		class Item722
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6333.6504,56.842907,3655.5874};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1303;
+			type="Bush_Ficus_Bush_2";
+		};
+		class Item723
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6334.4312,56.860725,3657.7432};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1304;
+			type="Bush_Ficus_Bush_3";
+		};
+		class Item724
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6337.5693,57.016823,3655.7656};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1305;
+			type="Bush_Oleander2";
+		};
+		class Item725
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6321.6099,54.711937,3656.9583};
+				angles[]={0,0.77255917,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1306;
+			type="Bush_Ficus_Bush_3";
+		};
+		class Item726
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6319.5244,54.521309,3662.2358};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1307;
+			type="Bush_Ficus_Bush_1";
+		};
+		class Item727
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6317.7827,54.247852,3665.5244};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1308;
+			type="Bush_Ficus_Bush_2";
+		};
+		class Item728
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6314.8193,53.752266,3664.7363};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1309;
+			type="Bush_Ficus_Bush_2";
+			atlOffset=-3.8146973e-006;
+		};
+		class Item729
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6314.4883,53.211552,3661.3584};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1310;
+			type="Bush_Oleander1";
+			atlOffset=-3.8146973e-006;
+		};
+		class Item730
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6309.0693,52.818916,3667.3027};
+				angles[]={0,0.77255917,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1311;
+			type="Bush_Ficus_Bush_1";
+			atlOffset=3.8146973e-006;
+		};
+		class Item731
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6310.1172,52.995049,3670.8735};
+				angles[]={0,0.77255917,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1312;
+			type="Bush_Ficus_Bush_2";
+		};
+		class Item732
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6307.4448,52.554836,3672.3774};
+				angles[]={0,0.77255917,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1313;
+			type="Bush_Ficus_Bush_2";
+		};
+		class Item733
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6313.0479,52.951267,3668.2656};
+				angles[]={0,0.77255917,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1314;
+			type="Bush_Oleander2";
+		};
+		class Item734
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6304.8501,51.664684,3670.1895};
+				angles[]={0,0.77255917,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1315;
+			type="Bush_Oleander1";
+		};
+		class Item735
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6299.7192,51.297806,3663.303};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1316;
+			type="Bush_Ficus_Bush_1";
+		};
+		class Item736
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6306.9111,52.42905,3659.2695};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1317;
+			type="Bush_Ficus_Bush_2";
+			atlOffset=3.8146973e-006;
+		};
+		class Item737
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6303.9478,51.444786,3658.4814};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1318;
+			type="Bush_Ficus_Bush_2";
+			atlOffset=-0.49948502;
+		};
+		class Item738
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6307.6919,52.457977,3661.4253};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1319;
+			type="Bush_Ficus_Bush_3";
+		};
+		class Item739
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6310.8301,52.545044,3659.4478};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1320;
+			type="Bush_Oleander2";
+		};
+		class Item740
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6294.6831,50.018299,3662.4255};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1321;
+			type="Bush_Oleander1";
 		};
 	};
 	class Connections
