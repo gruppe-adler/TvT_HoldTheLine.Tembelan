@@ -83,7 +83,8 @@ class russia {
             addItemsToBackpack[] = {
                 LIST_6("rhs_GRD40_White"),
                 LIST_2("rhs_GRD40_Red"),
-                LIST_2("rhs_GRD40_Green")
+                LIST_2("rhs_GRD40_Green"),
+                LIST_1("grad_axe")
             };
         };
 
