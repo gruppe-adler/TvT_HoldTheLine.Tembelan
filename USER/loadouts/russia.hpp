@@ -77,7 +77,7 @@ class russia {
         // TL
         class Soldier_TL_F: Soldier_F {
             primaryWeapon = "rhs_weap_ak74m_gp25";
-            handgunWeapon = "rhs_tr8_periscope";
+            handgunWeapon = "rhs_weap_tr8";
             headgear = "rhs_6b27m_green_ess";
             backpack = "rhs_sidor";
             addItemsToBackpack[] = {

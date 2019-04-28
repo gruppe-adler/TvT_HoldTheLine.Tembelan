@@ -79,7 +79,7 @@ class germany {
         class Soldier_TL_F: Soldier_F {
             uniform  = "SMM_Uniform_BW_TT_RS";
             primaryWeapon = "rhs_weap_g36kv_ag36";
-            handgunWeapon = "rhs_tr8_periscope";
+            handgunWeapon = "rhs_weap_tr8";
             addItemsToVest[] = {
                 LIST_8("rhssaf_30rnd_556x45_Tracers_G36"),
                 LIST_2("HandGrenade"),
