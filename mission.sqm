@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=159;
+		nextID=165;
 	};
 	class Camera
 	{
-		pos[]={7600.8794,79.207085,4826.6221};
-		dir[]={-0.37209958,-0.90364516,0.2120842};
-		up[]={-0.78507614,0.42828324,0.44746709};
-		aside[]={0.49518272,-3.1536911e-007,0.8687948};
+		pos[]={5437.1045,37.504436,2628.4978};
+		dir[]={0.76483446,-0.10602146,0.63553768};
+		up[]={0.081594065,0.99435127,0.067804098};
+		aside[]={0.63914418,2.0766165e-006,-0.76916903};
 	};
 };
 binarizationWanted=0;
@@ -3396,8 +3396,8 @@ class Mission
 		windForced=1;
 		year=2035;
 		day=28;
-		hour=13;
-		minute=37;
+		hour=5;
+		minute=0;
 		startFogDecay=0.014;
 		forecastFogDecay=0.014;
 	};
@@ -4476,7 +4476,7 @@ class Mission
 			fillName="DiagGrid";
 			a=1422.239;
 			b=38.823002;
-			angle=226.53389;
+			angle=226.53387;
 			id=429;
 			atlOffset=-0.62656593;
 		};
@@ -9623,7 +9623,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={4829.6099,5.8979774,3294.1042};
+				position[]={4829.6094,5.8979826,3294.1047};
 				angles[]={6.2791886,0,6.2791886};
 			};
 			areaSize[]={1,-1,1};
@@ -11951,7 +11951,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={4877.5464,5.7131543,3312.3186};
+				position[]={4877.5469,5.7131801,3312.3184};
 				angles[]={6.2731848,0,0.039979152};
 			};
 			areaSize[]={1,-1,1};
@@ -12145,7 +12145,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={4816.1255,5.9899998,3318.6006};
+				position[]={4816.125,5.9899998,3318.6006};
 			};
 			areaSize[]={1,-1,1};
 			id=757;
@@ -12600,7 +12600,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={4819.5635,5.9899998,3310.8599};
+				position[]={4819.5625,5.9899998,3310.8604};
 			};
 			areaSize[]={1,-1,1};
 			id=763;
@@ -13182,7 +13182,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={4816.0928,5.9899998,3308.8486};
+				position[]={4816.0938,5.9899998,3308.8479};
 			};
 			areaSize[]={1,-1,1};
 			id=766;
@@ -15411,7 +15411,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6077.8984,8.8806448,4176.5054};
+				position[]={6077.0605,8.8078203,4176.6392};
 				angles[]={0.0080009829,0,0.085788846};
 			};
 			side="Empty";
@@ -15421,7 +15421,6 @@ class Mission
 			};
 			id=897;
 			type="Land_CzechHedgehog_01_new_F";
-			atlOffset=-0.00031661987;
 		};
 		class Item385
 		{
@@ -22228,7 +22227,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={4971.5933,37.00589,1956.7837};
+				position[]={4971.5938,37.006042,1956.7837};
 			};
 			areaSize[]={1,-1,1};
 			id=1198;
@@ -22421,7 +22420,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={4949.9692,31.490711,1947.3689};
+				position[]={4949.9688,31.49065,1947.3689};
 			};
 			areaSize[]={1,-1,1};
 			id=1199;
@@ -23088,8 +23087,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={5463.5068,25.760117,1817.498};
-				angles[]={0.10362019,0,6.1303816};
+				position[]={5601.7466,11.04227,1901.8407};
+				angles[]={0.025996836,0,6.2432051};
 			};
 			init="call{[this,""Shot down Helicopter"",WEST,4] call grad_linearsd_fnc_createSector;}";
 			id=1234;
@@ -23444,8 +23443,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={4840.8452,22.824789,1831.594};
-				angles[]={0.043964844,0,6.2771816};
+				position[]={4801.7651,23.936466,1905.7415};
+				angles[]={6.2791886,0,6.2172818};
 			};
 			init="call{[this] call grad_linearSD_fnc_addRespawnPosition;}";
 			id=1262;

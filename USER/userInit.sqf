@@ -8,9 +8,9 @@
     _opforDirection = 1;
 
     _dateAndTimeArray = [
-        [28,3,10],
-        [30,7,15],
-        [5,2,16,30]
+        [6,3,13,0],
+        [6,6,8,0],
+        [6,8,17,30]
     ];
 
     [_firstActiveSectorID, _roundLength, _opforDirection, _dateAndTimeArray] call grad_linearSD_fnc_startLinearSD;
