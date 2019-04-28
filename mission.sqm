@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=1760;
+		nextID=1766;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5029.0117,18.7549,3257.3057};
-		dir[]={-0.56550026,-0.58484405,-0.58173728};
-		up[]={-0.4077023,0.81108993,-0.41940922};
-		aside[]={-0.7171241,-1.6437843e-007,0.69710076};
+		pos[]={6749.9575,87.299133,3657.7073};
+		dir[]={0.68124121,-0.73039031,0.05188141};
+		up[]={0.72830969,0.68299299,0.055466905};
+		aside[]={0.075948894,-4.5266643e-007,-0.99721587};
 	};
 };
 binarizationWanted=0;
@@ -3441,7 +3441,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1113;
+		items=1119;
 		class Item0
 		{
 			dataType="Layer";
@@ -46536,6 +46536,102 @@ class Mission
 			};
 			id=1759;
 			type="CraterLong";
+		};
+		class Item1113
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6790.855,43.704243,3654.7578};
+				angles[]={0.0060001095,4.5630007,6.2192721};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1760;
+			type="UralWreck";
+		};
+		class Item1114
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6800.7944,42.667507,3664.9922};
+				angles[]={0.037981652,0.75865155,6.2093196};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1761;
+			type="UAZWreck";
+		};
+		class Item1115
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6799.1729,43.013672,3650.6428};
+				angles[]={0.0060001095,5.6607223,6.2571931};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1762;
+			type="UAZWreck";
+		};
+		class Item1116
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6810.5024,42.682278,3658.5835};
+				angles[]={0.02399601,6.2043223,6.1854973};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1763;
+			type="UralWreck";
+		};
+		class Item1117
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6806.7832,41.920033,3671.0581};
+				angles[]={6.2812018,0.69358903,6.1854978};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1764;
+			type="SKODAWreck";
+		};
+		class Item1118
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6804.1792,42.418446,3667.7444};
+				angles[]={-0,1.654308,6.187479};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1765;
+			type="hiluxWreck";
 		};
 	};
 	class Connections
