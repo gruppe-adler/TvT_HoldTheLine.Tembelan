@@ -6,7 +6,12 @@ class germany {
         primaryWeapon = "rhs_weap_g36kv";
         primaryWeaponMagazine = "rhssaf_30rnd_556x45_Tracers_G36";
         primaryWeaponMuzzle = "";
-        primaryWeaponOptics = "";
+        primaryWeaponOptics[] = {
+            "rhsusf_acc_RX01",
+            "rhsusf_acc_compm4",
+            "rhsusf_acc_T1_high",
+            "rhs_acc_1p87"
+        };
         primaryWeaponPointer = "";
         primaryWeaponUnderbarrel = "";
         primaryWeaponUnderbarrelMagazine = "";
@@ -94,6 +99,7 @@ class germany {
         class Soldier_AR_F: Soldier_F {
             primaryWeapon = "rhs_weap_minimi_para_railed";
             primaryWeaponMagazine = "200Rnd_556x45_Box_Tracer_Red_F";
+            primaryWeaponOptics = "";
             backpack = "SMM_AssaultPack_BW_TT";
             addItemsToVest[] = {
 				LIST_2("HandGrenade"),

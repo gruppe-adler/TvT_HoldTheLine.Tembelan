@@ -6,7 +6,12 @@ class russia {
         primaryWeapon = "rhs_weap_ak74m";
         primaryWeaponMagazine = "rhs_30Rnd_545x39_AK_plum_green";
         primaryWeaponMuzzle = "";
-        primaryWeaponOptics = "";
+        primaryWeaponOptics[] = {
+            "rhs_acc_pkas",
+            "rhs_acc_ekp8_02",
+            "rhs_acc_1p63",
+            "rhs_acc_ekp1"
+        };
         primaryWeaponPointer = "";
         primaryWeaponUnderbarrel = "";
         primaryWeaponUnderbarrelMagazine = "";
@@ -92,6 +97,7 @@ class russia {
             primaryWeapon = "rhs_weap_ak103";
             primaryWeaponMagazine = "rhs_75Rnd_762x39mm_tracer";
             primaryWeaponMuzzle = "rhs_acc_dtk3";
+            primaryWeaponOptics = "";
             backpack = "rhs_assault_umbts";
             addItemsToVest[] = {
                 LIST_2("rhs_75Rnd_762x39mm_tracer"),
