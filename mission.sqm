@@ -8,22 +8,22 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=1802;
+		nextID=1804;
 	};
 	class MarkerIDProvider
 	{
-		nextID=11;
+		nextID=13;
 	};
 	class LayerIndexProvider
 	{
-		nextID=165;
+		nextID=171;
 	};
 	class Camera
 	{
-		pos[]={5546.7461,52.658939,2766.9385};
-		dir[]={0.60635382,-0.20104073,0.76944041};
-		up[]={0.12447003,0.97956473,0.15795241};
-		aside[]={0.78548008,1.6996637e-006,-0.61898923};
+		pos[]={6575.8633,155.01917,3639.3069};
+		dir[]={-0.7313804,-0.68123943,-0.031901158};
+		up[]={-0.68059397,0.73206341,-0.029686073};
+		aside[]={-0.043577321,2.8462819e-007,0.99906558};
 	};
 };
 binarizationWanted=0;
@@ -3403,7 +3403,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1127;
+		items=1129;
 		class Item0
 		{
 			dataType="Layer";
@@ -4476,7 +4476,7 @@ class Mission
 			fillName="DiagGrid";
 			a=1422.239;
 			b=38.823002;
-			angle=226.53387;
+			angle=226.53386;
 			id=429;
 			atlOffset=-0.62656593;
 		};
@@ -15411,7 +15411,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6077.0605,8.8078203,4176.6392};
+				position[]={6077.0605,8.8078213,4176.6392};
 				angles[]={0.0080009829,0,0.085788846};
 			};
 			side="Empty";
@@ -15421,6 +15421,7 @@ class Mission
 			};
 			id=897;
 			type="Land_CzechHedgehog_01_new_F";
+			atlOffset=9.5367432e-007;
 		};
 		class Item385
 		{
@@ -23269,10 +23270,10 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={7565.835,51.158485,4822.0894};
-				angles[]={6.2551947,0,6.2711854};
+				position[]={7565.835,51.15847,4822.0889};
+				angles[]={6.2551899,0,6.2711778};
 			};
-			init="call{[this,""Airport"",EAST,0] call grad_linearsd_fnc_createSector;}";
+			init="call{[this,""Church"",EAST,0] call grad_linearsd_fnc_createSector;}";
 			id=1250;
 			type="Logic";
 		};
@@ -39906,6 +39907,25 @@ class Mission
 			{
 			};
 			id=1797;
+		};
+		class Item1127
+		{
+			dataType="Marker";
+			position[]={5148.2739,71.367996,1541.9871};
+			name="marker_11";
+			text="Airport";
+			type="mil_objective";
+			id=1802;
+			atlOffset=3.0517578e-005;
+		};
+		class Item1128
+		{
+			dataType="Marker";
+			position[]={7605.4634,51.437073,4876.1509};
+			name="marker_12";
+			text="Church";
+			type="mil_objective";
+			id=1803;
 		};
 	};
 	class Connections
