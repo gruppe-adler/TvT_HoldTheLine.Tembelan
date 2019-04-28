@@ -86,7 +86,8 @@ class germany {
                 LIST_2("SmokeShell"),
                 LIST_4("1Rnd_Smoke_Grenade_shell"),
                 LIST_1("1Rnd_SmokeRed_Grenade_shell"),
-                LIST_1("1Rnd_SmokeBlue_Grenade_shell")
+                LIST_1("1Rnd_SmokeBlue_Grenade_shell"),
+                LIST_1("grad_axe")
             };
         };
 
