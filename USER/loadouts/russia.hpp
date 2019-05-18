@@ -61,7 +61,7 @@ class russia {
         };
 
         // Grenadier
-        class Soldier_GL_F {
+        class Soldier_GL_F: Soldier_F {
             primaryWeapon = "rhs_weap_ak74m_gp25";
             backpack = "rhs_sidor";
             addItemsToBackpack[] = {
