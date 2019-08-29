@@ -60,7 +60,7 @@ class germany {
         };
 
         // Grenadier
-        class Soldier_GL_F {
+        class Soldier_GL_F: Soldier_F {
             primaryWeapon = "rhs_weap_g36kv_ag36";
             addItemsToVest[] = {
 				LIST_8("rhssaf_30rnd_556x45_Tracers_G36"),
