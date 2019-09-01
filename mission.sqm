@@ -8,7 +8,7 @@ class EditorData
 	toggles=1025;
 	class ItemIDProvider
 	{
-		nextID=2490;
+		nextID=2492;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=223;
+		nextID=230;
 	};
 	class Camera
 	{
-		pos[]={6260.4946,457.4024,2254.8655};
-		dir[]={-0.51763082,-0.34890845,0.78123295};
-		up[]={-0.19271679,0.93715602,0.29085749};
-		aside[]={0.83361912,2.2060703e-008,0.55234104};
+		pos[]={6479.8486,99.538918,3662.301};
+		dir[]={0.62601215,-0.49766302,-0.60037577};
+		up[]={0.35918084,0.86736935,-0.34447095};
+		aside[]={-0.6921767,-4.4528861e-008,-0.72173429};
 	};
 };
 binarizationWanted=0;
@@ -108,11 +108,10 @@ addons[]=
 	"A3_Structures_F_Enoch_Decals_Horizontal",
 	"A3_Structures_F_Enoch_Military_Radar",
 	"A3_Structures_F_Enoch_Military_Bunkers",
-	"A3_Characters_F_Common",
-	"A3_Static_F_Sams_Radar_System_01",
 	"rhsusf_c_mrzr",
 	"A3_Soft_F_Quadbike_01",
-	"rhsusf_c_fmtv"
+	"rhsusf_c_fmtv",
+	"A3_Static_F_Sams_Radar_System_01"
 };
 class AddonsMetaData
 {
@@ -462,31 +461,31 @@ class AddonsMetaData
 		};
 		class Item52
 		{
-			className="A3_Static_F_Sams";
-			name="Arma 3 Sams - Turrets";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item53
-		{
 			className="rhsusf_c_mrzr";
 			name="MRZR";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item54
+		class Item53
 		{
 			className="A3_Soft_F";
 			name="Arma 3 Alpha - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item55
+		class Item54
 		{
 			className="rhsusf_c_fmtv";
 			name="FMTV Trucks";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
+		};
+		class Item55
+		{
+			className="A3_Static_F_Sams";
+			name="Arma 3 Sams - Turrets";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 	};
 };
@@ -3463,7 +3462,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1624;
+		items=1623;
 		class Item0
 		{
 			dataType="Layer";
@@ -30309,7 +30308,7 @@ class Mission
 			init="call{this execVM ""USER\scripts\destroyBuilding.sqf""}";
 			id=1804;
 			type="Logic";
-			atlOffset=0.83518982;
+			atlOffset=0.83520508;
 		};
 		class Item1037
 		{
@@ -30321,7 +30320,7 @@ class Mission
 			init="call{this execVM ""USER\scripts\destroyBuilding.sqf""}";
 			id=1805;
 			type="Logic";
-			atlOffset=0.59997082;
+			atlOffset=9.5367432e-007;
 		};
 		class Item1038
 		{
@@ -30360,7 +30359,7 @@ class Mission
 			init="call{this execVM ""USER\scripts\destroyBuilding.sqf""}";
 			id=1808;
 			type="Logic";
-			atlOffset=0.26460648;
+			atlOffset=0.26458931;
 		};
 		class Item1041
 		{
@@ -30373,7 +30372,7 @@ class Mission
 			init="call{this execVM ""USER\scripts\destroyBuilding.sqf""}";
 			id=1809;
 			type="Logic";
-			atlOffset=0.83696556;
+			atlOffset=0.83710861;
 		};
 		class Item1042
 		{
@@ -30386,7 +30385,7 @@ class Mission
 			init="call{this execVM ""USER\scripts\destroyBuilding.sqf""}";
 			id=1810;
 			type="Logic";
-			atlOffset=0.83702135;
+			atlOffset=0.83700085;
 		};
 		class Item1043
 		{
@@ -30425,7 +30424,7 @@ class Mission
 			init="call{this execVM ""USER\scripts\destroyBuilding.sqf""}";
 			id=1813;
 			type="Logic";
-			atlOffset=0.25025177;
+			atlOffset=0.25030041;
 		};
 		class Item1046
 		{
@@ -30438,7 +30437,7 @@ class Mission
 			init="call{this execVM ""USER\scripts\destroyBuilding.sqf""}";
 			id=1814;
 			type="Logic";
-			atlOffset=0.25025177;
+			atlOffset=0.25030041;
 		};
 		class Item1047
 		{
@@ -30451,7 +30450,7 @@ class Mission
 			init="call{this execVM ""USER\scripts\destroyBuilding.sqf""}";
 			id=1815;
 			type="Logic";
-			atlOffset=0.83695173;
+			atlOffset=0.83689404;
 		};
 		class Item1048
 		{
@@ -30477,7 +30476,7 @@ class Mission
 			init="call{this execVM ""USER\scripts\destroyBuilding.sqf""}";
 			id=1817;
 			type="Logic";
-			atlOffset=0.3367281;
+			atlOffset=0.33667564;
 		};
 		class Item1050
 		{
@@ -30490,7 +30489,7 @@ class Mission
 			init="call{this execVM ""USER\scripts\destroyBuilding.sqf""}";
 			id=1818;
 			type="Logic";
-			atlOffset=0.8370285;
+			atlOffset=0.8370018;
 		};
 		class Item1051
 		{
@@ -30503,7 +30502,7 @@ class Mission
 			init="call{this execVM ""USER\scripts\destroyBuilding.sqf""}";
 			id=1819;
 			type="Logic";
-			atlOffset=0.83696938;
+			atlOffset=0.8370018;
 		};
 		class Item1052
 		{
@@ -30516,7 +30515,7 @@ class Mission
 			init="call{this execVM ""USER\scripts\destroyBuilding.sqf""}";
 			id=1820;
 			type="Logic";
-			atlOffset=0.83699989;
+			atlOffset=0.8370018;
 		};
 		class Item1053
 		{
@@ -30529,7 +30528,7 @@ class Mission
 			init="call{this execVM ""USER\scripts\destroyBuilding.sqf""}";
 			id=1821;
 			type="Logic";
-			atlOffset=0.83694649;
+			atlOffset=0.8370018;
 		};
 		class Item1054
 		{
@@ -30542,7 +30541,7 @@ class Mission
 			init="call{this execVM ""USER\scripts\destroyBuilding.sqf""}";
 			id=1822;
 			type="Logic";
-			atlOffset=0.15827751;
+			atlOffset=0.15824509;
 		};
 		class Item1055
 		{
@@ -30555,7 +30554,7 @@ class Mission
 			init="call{this execVM ""USER\scripts\destroyBuilding.sqf""}";
 			id=1823;
 			type="Logic";
-			atlOffset=0.0905056;
+			atlOffset=0.090478897;
 		};
 		class Item1056
 		{
@@ -30567,7 +30566,7 @@ class Mission
 			init="call{this execVM ""USER\scripts\destroyBuilding.sqf""}";
 			id=1824;
 			type="Logic";
-			atlOffset=2.8610229e-005;
+			atlOffset=9.9182129e-005;
 		};
 		class Item1057
 		{
@@ -41320,79 +41319,6 @@ class Mission
 		};
 		class Item1621
 		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={6500.1294,82.518982,3645.6362};
-						angles[]={6.2651882,4.5212917,0.053946704};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-					};
-					id=2485;
-					type="B_UAV_AI";
-				};
-			};
-			class Attributes
-			{
-			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=1;
-				};
-				class Links
-				{
-					items=1;
-					class Item0
-					{
-						linkID=0;
-						item0=2485;
-						item1=2484;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={0};
-						};
-					};
-				};
-			};
-			id=2483;
-			atlOffset=-0.00012207031;
-		};
-		class Item1622
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={6499.9424,85.439774,3645.522};
-				angles[]={6.2651882,4.5212917,0.053946704};
-			};
-			side="West";
-			flags=6;
-			class Attributes
-			{
-				reportRemoteTargets=1;
-				receiveRemoteTargets=1;
-				reportOwnPosition=1;
-				aiRadarUsage=1;
-			};
-			id=2484;
-			type="B_Radar_System_01_F";
-			atlOffset=-0.00012207031;
-		};
-		class Item1623
-		{
 			dataType="Layer";
 			name="Spielerfahrzeuge";
 			class Entities
@@ -47176,6 +47102,26 @@ class Mission
 			};
 			id=2486;
 			atlOffset=35.106342;
+		};
+		class Item1622
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6500.5322,85.456612,3644.7625};
+				angles[]={6.2771955,4.5393682,0.053945597};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+				aiRadarUsage=1;
+			};
+			id=2491;
+			type="B_Radar_System_01_F";
 		};
 	};
 	class Connections
