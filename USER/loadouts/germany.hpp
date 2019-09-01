@@ -29,7 +29,7 @@ class germany {
         handgunWeaponPointer = "";
         handgunWeaponUnderbarrel = "";
         handgunWeaponUnderbarrelMagazine = "";
-        headgear = "ARC_GER_Tropentarn_Helmet_simple";
+        headgear = "SMM_Helmet_A_BW_TT";
         goggles = "";
         nvgoggles = "";
         binoculars = "Binocular";
